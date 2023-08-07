@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 25px 0 50px 0;
+}
+
 .titulo {
     font-family: 'Roboto Condensed', sans-serif;
 }
