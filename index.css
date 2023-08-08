@@ -8,6 +8,16 @@ body {
     margin: 25px 0 50px 0;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    gap: 10px;
+}
+
 .titulo {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -16,7 +26,7 @@ body {
     font-family: 'Cabin Condensed', sans-serif;
 }
 
-h2 {
+h1, h2 {
     margin: 15px 0 5px 12px;
 }
 
@@ -25,6 +35,16 @@ a {
     color: black;
 }
 
+ul {
+    flex-grow: 1;
+}
+
 li {
-    margin-left: 35px;
+    /* margin-left: 35px; */
+    list-style-type: none;
+
+    padding: 7px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
