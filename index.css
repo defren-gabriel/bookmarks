@@ -36,11 +36,18 @@ a {
     text-align: center;
 
     color: black;   
-    background-color: #cfcfcf;
 
     padding: 12px;
 
     border-radius: 15px;
 
     flex-grow: 1;
+}
+
+.link {
+    background-color: #4783de;
+}
+
+.sublink {
+    background-color: #ababab;
 }
