@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-body.tema-claro {
-    background-color: white;
-    color: black;
-}
-
-body.tema-escuro {
-    background-color: black;
-    color: white;
-}
-
 .titulo {
     font-family: 'Roboto Condensed', sans-serif;
 }
