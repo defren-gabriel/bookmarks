@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1080px;
+    margin: auto;
+
+    margin-bottom: 50px;
+}
+
 .titulo {
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
 }
 
 .texto {
@@ -27,8 +35,6 @@ section {
     flex-wrap: wrap;
 
     gap: 5px;
-
-    padding: 5px;
 }
 
 a {
@@ -50,4 +56,10 @@ a {
 
 .sublink {
     background-color: #ababab;
+}
+
+@media screen and (max-width: 1080px){
+    body{
+        margin: 0 5px 50px 5px;
+    }
 }
